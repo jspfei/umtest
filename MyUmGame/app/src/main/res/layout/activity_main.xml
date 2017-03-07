@@ -14,4 +14,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:text="点击量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="86dp"
+        android:id="@+id/button_click_number" />
+
+    <Button
+        android:text="安装量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_down_number"
+        android:layout_alignLeft="@+id/button_down_number"
+        android:layout_alignStart="@+id/button_down_number"
+        android:layout_marginTop="64dp"
+        android:id="@+id/button_installed_number" />
+
+    <Button
+        android:text="下载量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/button_down_number"
+        android:layout_below="@+id/button_click_number"
+        android:layout_alignLeft="@+id/button_click_number"
+        android:layout_alignStart="@+id/button_click_number" />
+
 </RelativeLayout>
